@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "burning-bucket" {
-  bucket = "burning-s3-${var.enviroment}-gibum-apne2"
+  bucket = "burning-s3-${var.enviroment}-apne2"
 }
 
 resource "aws_s3_bucket_acl" "burning-bucket-acl" {
